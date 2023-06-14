@@ -1,0 +1,6 @@
+db = connect("cs193x-final-project");
+db.dropDatabase();
+db.incomplete.insertOne({ lesson: "1" });
+db.incomplete.insertOne({ lesson: "2" });
+db.incomplete.insertOne({ lesson: "3" });
+db.createCollection("complete");

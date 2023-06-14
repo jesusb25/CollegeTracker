@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Guidance Guide</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- This line provides automatic page and style reloading when files change -->
+  <script type="module" src="/lib/client/updater.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <h1>College Guidance Guide</h1>
+    </div>
+  </header>
+  <div class="module-dropbox">
+    <input type="checkbox" id="module-toggle-1" class="module-toggle">
+    <label for="module-toggle-1" class="module-header">Module 1: Getting Started</label>
+    <div class="module-content module-1 hidden" >
+      <div class="lesson-row">
+        <input type="checkbox" id="lesson-toggle-1" class="lesson-checkbox lesson-checkbox-1">
+        <label for="lesson-toggle-1" class="lesson-name">Lesson 1: Overview</label>
+        <a href="lesson1.html" class="lesson-link">Link</a>
+      </div>
+      <div class="video-container">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/m_9S5cBNvTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <input type="checkbox" id="module-toggle-2" class="module-toggle">
+    <label for="module-toggle-2" class="module-header">Module 2: Getting Organized</label>
+    <div class="module-content module-2 hidden" >
+        <div class="lesson-row">
+        <input type="checkbox" id="lesson-toggle-1" class="lesson-checkbox lesson-checkbox-2">
+        <label for="lesson-toggle-1" class="lesson-name">Lesson 1: Organizing your applications</label>
+        <a href="lesson1.html" class="lesson-link">Link</a>
+      </div>
+      <div class="video-container">
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/ace3ltHOybs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <input type="checkbox" id="module-toggle-3" class="module-toggle">
+    <label for="module-toggle-3" class="module-header">Module 3: Applying</label>
+    <div class="module-content module-3 hidden" >
+        <div class="lesson-row">
+        <input type="checkbox" id="lesson-toggle-1" class="lesson-checkbox lesson-checkbox-3">
+        <label for="lesson-toggle-1" class="lesson-name">Lesson 1: How to Common Application</label>
+        <a href="lesson1.html" class="lesson-link">Link</a>
+      </div>
+        <div class="video-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/804V5JiHx7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
+<script type="module" src="app.js"></script>

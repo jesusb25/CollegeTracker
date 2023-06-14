@@ -1,0 +1,31 @@
+CS193X Final Project Milestone
+==============================
+
+Project Title: College Guidance Guide
+Your Name: Jesus Ballesteros
+Your SUNetID: jesusb25
+
+Overview
+--------
+I created a main modules page and tried implementing blogs for lessons but i think im going to compile resources on the links instead and save data in mongoDB plus saved user data
+Blockers are how I can connect a backed to the front end
+
+Project Changes
+---------------
+Definitely going to narrow my scope to just have user data saved on lessons, add an api to save user data and maybe a college listed
+
+Implementation Details
+----------------------
+added toggle features for buttons and main module page with only html and css. I am using module headers, flex box features, and toggle plus links for classes. Each lesson will have a checkbox to save lesson completions. The api endpoints will save what lessons will be complete
+
+External libraries and code
+---------------------------
+use the api for server data from the generic social media app and possibly mongodb examples
+
+Collaboration and resources
+---------------------------
+I have been using a lot of w3schools website and geeks for geeks for css and html help. I have also been using the generic social media app for api help
+
+Anything else?
+--------------
+How can i connect the backend to the front end? I am having trouble with that

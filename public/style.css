@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header {
+    font-size: large;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0%;
+  }
+  
+  .module-dropbox {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .module-toggle {
+    display: none;
+  }
+  
+  .module-header {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    margin-bottom: 10px;
+    padding: 1%;
+    flex-basis: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .module-header:hover {
+    background-color: lightgray;
+  }
+  
+  .module-content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+  }
+
+  
+  .module-content p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .module-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .module-content li {
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  .lesson-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .lesson-checkbox {
+    flex: 0 0 auto;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .lesson-name {
+    color: #53565A;
+    flex: 1 1 auto;
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .lesson-link,
+  .lesson-link:visited,
+  .lesson-link:link {
+    color: #820000;
+    flex: 0 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    padding: 20px;
+  }
+
+.hidden {
+    display: none;
+}
